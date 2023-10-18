@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import SingleProduct from "./components/product";
+import SingleProduct from "./components/Product";
 import Link from "next/link";
 import Layout from "./layout";
 
