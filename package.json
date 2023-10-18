@@ -1,0 +1,37 @@
+{
+  "name": "ento",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.11.2",
+    "cloudinary-video-player": "^1.9.16",
+    "file-saver": "^2.0.5",
+    "jquery": "^3.7.1",
+    "next": "^13.5.4",
+    "next-cloudinary": "^4.22.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.11.0",
+    "react-player": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "babel-plugin-react-html-attrs": "^3.0.5",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "tailwindcss-animated": "^1.0.1",
+    "typescript": "latest"
+  }
+}
