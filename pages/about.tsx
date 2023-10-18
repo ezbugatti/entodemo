@@ -2,7 +2,7 @@
 import React from 'react'
 import Layout from './layout'
 import Hero from './components/about/hero'
-import Tabs from './components/Tabs'
+import Tabs from './components/tabs'
 const About = () => {
   return (
     <>
