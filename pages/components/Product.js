@@ -1,7 +1,18 @@
 import Link from "next/link";
 
 const Product = ({ product }) => {
+  if (!product) {
+    // Handle the case where product is undefined
+    return null; // Or display an error message
+  }
+
   const { img, title, brand, price } = product;
+
+  if (!img || !title || !brand || !price) {
+    // Handle the case where one of these properties is undefined
+    return null; // Or display an error message
+  }
+
   return (
     <div className="single-product flex flex-col bg-gray-50 gap-3 shadow-md hover:shadow-xl hover:scale-105 duration-300 px-4 py-7 rounded-sm overflow-hidden">
       <div className="flex justify-center">
