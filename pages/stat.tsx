@@ -2,13 +2,14 @@ import React from 'react'
 
 const Stat = () => {
   return (
-    <div className="mt-10 bg-gray-50/90">
-      <div className="flex flex-wrap justify-evenly gap-10">
+    <div className="mt-10 w-full bg-cover l bg-[url(/teal.jpg)] 
+    bg-no-repeat">
+      <div className="flex flex-wrap justify-evenly gap-10 py-4">
         <div
-          className="flex items-center p-16 card m-2 cursor-pointer border rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 hover:bg-gray-50 transition-all duration-500 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium text-6xl"
+          className="flex items-center p-16 card m-2 cursor-pointer border rounded-lg hover:shadow-md hover:border-opacity-0 transform  hover:bg-gray-500/10 transition-all duration-500 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium text-6xl"
         >
           <svg
-            fill="#029f89"
+            fill="#FFFFFF"
             height="40px"
             width="40px"
             version="1.1"
@@ -39,16 +40,16 @@ const Stat = () => {
             </g>
           </svg>
           <div>
-            <p className="pl-2 font-semibold text-teal-700 font-primary">20</p>
-            <p className="text-sm pl-2">Салбарууд</p>
+            <p className="pl-2 font-semibold text-gray-50 stroke-gray-800 font-primary">20</p>
+            <p className="text-gray-50 text-sm pl-2">Салбарууд</p>
           </div>
         </div>
         
         <div
-          className="flex items-center p-16 card m-2 cursor-pointer border rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 hover:bg-gray-50 transition-all duration-500  focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium text-6xl"
+          className="flex items-center p-16 card m-2 cursor-pointer border rounded-lg hover:shadow-md  transform  hover:bg-gray-500/10 transition-all duration-500  focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium text-6xl"
         >
           <svg
-            fill="#029f89"
+            fill="#FFFFFF"
             height="40px"
             width="40px"
             version="1.1"
@@ -79,15 +80,16 @@ const Stat = () => {
             </g>
           </svg>
           <div>
-            <p className="pl-2 font-semibold text-teal-700   font-primary">5000</p>
-            <p className="text-sm pl-2">Бүтээгдэхүүний нэр төрөл</p>
+            <p className="pl-2 font-semibold text-gray-50  font-primary">5000</p>
+            <p className="text-sm pl-2 text-gray-50">Бүтээгдэхүүний нэр төрөл</p>
           </div>
         </div>
-        <div
-          className="flex items-center p-16 card m-2 cursor-pointer border rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 hover:bg-gray-50 transition-all duration-500 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium text-6xl"
+        
+          <div
+          className="flex items-center p-16 card m-2 cursor-pointer border- border rounded-lg hover:shadow-md transform  hover:bg-gray-500/10 transition-all duration-500  focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium text-6xl"
         >
           <svg
-            fill="#029f89"
+            fill="#FFFFFF"
             height="40px"
             width="40px"
             version="1.1"
@@ -121,9 +123,9 @@ const Stat = () => {
             </g>
           </svg>
           <div>
-          <p className="pl-2 font-semibold text-teal-700   font-primary">210</p>
-          <p className="text-sm pl-2">Ажилчид</p>
-        </div>
+            <p className="pl-2 font-semibold text-gray-50 font-primary">200</p>
+            <p className="text-sm pl-2 text-gray-50">Ажилчид</p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Chiglel = () => {
   return (
     <div className="news-section">
@@ -19,18 +19,21 @@ const Chiglel = () => {
      
         <div className="news-section__cards">
           
-          <div className="news-section__news-cards md:flex md:flex-1 md:grid-cols-1 mx-40 gap-4">
+          <div className="news-section__news-cards md:flex md:flex-1 md:grid-cols-1 w-full m gap-6 px-20 mx-4 ">
             
-            <div className="news-section__news-card">
-              <div className="news-section__news-card-imageWrapper transform hover:scale-105 transition-all duration-700 ease-in-out">
-                <img className=" rounded-lg" src="import1.jpg" alt=""/>
-              </div>
-              <div className="news-section__news-card-text">
+          
+
+
+            <div z-0 className="news-section__news-card">
+            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                            <Image  height={500} // Desired size with correct aspect ratio
+                width={500} z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
+                                           
+                <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
-                  ИМПОРТ
+                  Storie / Ambassadors
                 </div>
-                
-              
+               
                 <a href="#" className="readmore group">
                   <span className="readmores">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -40,17 +43,18 @@ const Chiglel = () => {
                   </a>
                 
               </div>
-              
-            </div>
-            <div className="news-section__news-card">
-              <div className="news-section__news-card-imageWrapper transform hover:scale-105 transition-all duration-700 ease-in-out">
-                <img className="rounded-lg" src="medee1.jpg" alt=""/>
-              </div>
-              <div className="news-section__news-card-text">
+                                        </div>
+                                        </div>
+                                        <div z-0 className="news-section__news-card">
+            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                            <Image height={500} // Desired size with correct aspect ratio
+                width={500}  z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
+                                           
+                <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
-                  ЭМ, ЭМНЭЛГИЙН ХЭРЭГСЭЛ
+                  Storie / Ambassadors
                 </div>
-                
+               
                 <a href="#" className="readmore group">
                   <span className="readmores">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -60,16 +64,21 @@ const Chiglel = () => {
                   </a>
                 
               </div>
-              
-            </div>
-            <div className="news-section__news-card">
-              <div className="news-section__news-card-imageWrapper transform hover:scale-105 transition-all duration-700 ease-in-out ">
-                <img className="h-96 object-cover rounded-lg" src="medee1.jpg" alt=""/>
-              </div>
-              <div className="news-section__news-card-text">
+                                        </div>
+                                        </div>
+
+                                        <div z-0 className="news-section__news-card">
+            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                            <Image
+                height={500} // Desired size with correct aspect ratio
+                width={500}
+                 z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
+                                           
+                <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
-                  ЭМИЙН САН
+                  Storie / Ambassadors
                 </div>
+               
                 <a href="#" className="readmore group">
                   <span className="readmores">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -79,8 +88,12 @@ const Chiglel = () => {
                   </a>
                 
               </div>
-              
-            </div>
+                                        </div>
+                                        </div>
+
+           
+            
+           
           </div>
         </div>
       </div>

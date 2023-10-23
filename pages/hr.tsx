@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./layout";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import TextReveal from "./components/textReveal";
+import Image from "next/image";
 const hr = () => {
   return (
     <Layout>
@@ -18,7 +19,7 @@ const hr = () => {
       <div className="w-full flex flex-1 ">
       
         <div className="w-3/6 ">
-          <img className="rounded-2xl" src="hrm.jpg" alt="zaxiral"/>
+          <Image  width={600} height={400} className="rounded-2xl" src="/hrm.jpg" alt="zaxiral"/>
          
           </div>
 
@@ -51,7 +52,7 @@ const hr = () => {
          
           </div>
           <div className="w-3/6 ">
-          <img className="rounded-2xl" src="hrm.jpg" alt="zaxiral"/>
+          <Image  width={600} height={400} className="rounded-2xl" src="/hrm.jpg" alt="zaxiral"/>
          
           </div>
         </div>

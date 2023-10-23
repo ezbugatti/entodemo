@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Zaxiral = () => {
   return (
     <div>
@@ -12,8 +12,10 @@ const Zaxiral = () => {
               захирлын мэндчилгээ
             </h2>
             <div className="w-auto items-center">
-              <img
-                src="zaxiral.jpg"
+              <Image
+                src="/zaxiral.jpg"
+                height={100} // Desired size with correct aspect ratio
+                width={100}
                 className="transform rounded-md ml-6"
                 alt="zaxiral"
               />
@@ -38,7 +40,7 @@ const Zaxiral = () => {
           </div>
           <div className="w-3/6 hidden lg:block">
             <h2
-              className="flex text-gray-900 font-primary uppercase text-center text-2xl"
+              className=" text-gray-900 font-primary uppercase text-center text-2xl"
             >
               захирлын мэндчилгээ
             </h2>

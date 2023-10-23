@@ -123,10 +123,7 @@ const Nav = () => {
               href="news"
               >Мэдээ мэдээлэл</Link>
 
-            <Link
-              className="inline-block uppercase py-2 px-6 text-gray-900 hover:text-green-700 hover-underline-animation"
-              href="/contact"
-              >Холбоо барих</Link>
+           
 
             <input
               className="py-2 px-6 text-sm"

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Hero = () => {
   return (
     
@@ -8,7 +8,7 @@ const Hero = () => {
 
         <div className="site-hero_img">
         
-          <img src="about-hero.jpg" className='w-full shadow-2xl ' alt="" />
+          <Image width={2000} height={1400} src="/about-hero.jpg" className='w-full shadow-2xl ' alt="about" />
          
         </div>
       </div>
