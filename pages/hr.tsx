@@ -6,17 +6,17 @@ import Image from "next/image";
 const hr = () => {
   return (
     <Layout>
-      <div className="flex h-96 items-center justify-center bg-gradient-to-tr to-teal-300 from-cyan-700 p-10">
+      {/* <div className="flex h-96 items-center justify-center bg-gradient-to-tr to-teal-300 from-cyan-700 p-10">
           <div className="w-max">
             <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">
              Бидэнтэй Нэгдэхийг Хүсвэл
             </h1>
             <TextReveal/>
           </div>
-        </div>
+        </div> */}
       <div className="wrapper">
         
-      <div className="w-full flex flex-1 ">
+      <div className="hidden md:flex w-full flex-1 ">
       
         <div className="w-3/6 ">
           <Image  width={600} height={400} className="rounded-2xl" src="/hrm.jpg" alt="zaxiral"/>
@@ -36,8 +36,56 @@ const hr = () => {
          
           </div>
         </div>
+
+        <div className="w-full md:hidden">
+      
+      <div className="w-full md:hidden">
+      <h1 className="flex text-center text-2xl text-gray-900 font-semibold "> АЖИЛЛАХ ТААТАЙ ОРЧИН утас</h1>
+        <Image  width={600} height={400} className="rounded-2xl bg-cover" src="/hrm.jpg" alt="zaxiral"/>
+       
         </div>
-        <div className="w-full bg-gray-50  flex flex-1">
+
+        <div className="w-full pl-10 md:hidden">
+        
+        <ul className="text-base text-gray-900 pt-6 ">
+          <li className="flex  pb-2 items-center "><BsFillCheckCircleFill color="green" className="mr-8 "/> Чадварлаг мэргэжлийн нөхөрсөг хамт олон</li>
+          <li className="flex pb-2 items-center "><BsFillCheckCircleFill color="green"  className="mr-8"/> Ажилтан бүрт өсөн дэвших боломж адил тэгш олгогдсон</li>
+          <li className="flex  pb-2 items-center"><BsFillCheckCircleFill color="green"  className="mr-8"/> Гүйцэтгэлд тулгуурласан урамшууллын тогтолцоотой</li>
+          <li className="flex pb-2 items-center"><BsFillCheckCircleFill color="green"  className="mr-8"/> Бизнесийн бусад салбарт хөрвөн ажиллах боломж</li>
+          <li className="flex pb-2 items-center "><BsFillCheckCircleFill color="green"  className="mr-8"/> Өрсөлдөхүйц цалин урамшуулал</li>
+          
+        </ul>
+       
+        </div>
+      </div>
+
+
+      <div className="w-full md:hidden mt-4">
+      
+      <div className="w-full md:hidden ">
+      <h1 className="flex text-center text-2xl text-gray-900 font-semibold "> АЖИЛЛАХ ТААТАЙ ОРЧИН утас</h1>
+        <Image  width={600} height={400} className="rounded-2xl bg-cover" src="/hrm.jpg" alt="zaxiral"/>
+       
+        </div>
+
+        <div className="w-full pl-10 md:hidden">
+        
+        <ul className="text-base text-gray-900 pt-6 ">
+          <li className="flex  pb-2 items-center "><BsFillCheckCircleFill color="green" className="mr-8 "/> Чадварлаг мэргэжлийн нөхөрсөг хамт олон</li>
+          <li className="flex pb-2 items-center "><BsFillCheckCircleFill color="green"  className="mr-8"/> Ажилтан бүрт өсөн дэвших боломж адил тэгш олгогдсон</li>
+          <li className="flex  pb-2 items-center"><BsFillCheckCircleFill color="green"  className="mr-8"/> Гүйцэтгэлд тулгуурласан урамшууллын тогтолцоотой</li>
+          <li className="flex pb-2 items-center"><BsFillCheckCircleFill color="green"  className="mr-8"/> Бизнесийн бусад салбарт хөрвөн ажиллах боломж</li>
+          <li className="flex pb-2 items-center "><BsFillCheckCircleFill color="green"  className="mr-8"/> Өрсөлдөхүйц цалин урамшуулал</li>
+          
+        </ul>
+       
+        </div>
+      </div>
+
+
+
+        </div>
+        <div className="hidden w-full md:flex bg-gray-50 flex-1">
         
           <div className="w-3/6 pl-10 ">
           <h1 className="text-center text-2xl text-gray-900 font-semibold mt-4 "> АЖИЛЛАХ ТААТАЙ ОРЧИН</h1>
@@ -58,9 +106,13 @@ const hr = () => {
         </div>
         
 
-        
+       
       <div className="wrapper">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-14"> 
+      <div className="section-title text-2xl text-bold text-center uppercase mb-6">
+          <span>СОНГОН ШАЛГАРУУЛАЛТ</span>
+          
+        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-14 lg:p-20"> 
   
         
         <div className="w-full transform hover:-translate-y-5 transition-all duration-700 ">

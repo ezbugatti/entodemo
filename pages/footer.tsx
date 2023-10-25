@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-wrapper bg-gray-800 py-10">
-        <div className="footer-menus flex flex-wrap w-full justify-evenly px-6 text-gray-200/80">
+        <div className="footer-menus flex flex-wrap w-full justify-evenly px-10 text-gray-200/80">
           <div className="footer-menu__wrapper text-justify mb-4  w-1/2 md:w-1/4">
             <span className="footer-menu__title text-gray-100  text-sm md:text-lg  font-bold hover:text-white">Бидний тухай</span>
             <ul className="footer-menu__list text-xs md:text-base mt-3 ">

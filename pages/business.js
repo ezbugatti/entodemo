@@ -11,6 +11,10 @@ const Business = () => {
               Эрхэм Нандин Тэнгэрлэг Оршихуй
             </h1>
           </div>
+
+          <div className="">
+            <div></div>
+          </div>
         </div>
       </Layout>
     </>

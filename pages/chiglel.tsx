@@ -24,10 +24,10 @@ const Chiglel = () => {
           
 
 
-            <div z-0 className="news-section__news-card">
-            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+            <div z-0="true" className="news-section__news-card">
+            <div z-0="true" role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
                                             <Image  height={500} // Desired size with correct aspect ratio
-                width={500} z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
+                width={500} z-0="true" role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
                                            
                 <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
@@ -45,10 +45,10 @@ const Chiglel = () => {
               </div>
                                         </div>
                                         </div>
-                                        <div z-0 className="news-section__news-card">
-            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                        <div z-0="true" className="news-section__news-card">
+            <div z-0="true" role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
                                             <Image height={500} // Desired size with correct aspect ratio
-                width={500}  z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
+                width={500}  z-0="true" role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
                                            
                 <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
@@ -67,12 +67,12 @@ const Chiglel = () => {
                                         </div>
                                         </div>
 
-                                        <div z-0 className="news-section__news-card">
-            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                        <div z-0="true" className="news-section__news-card">
+            <div z-0="true" role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
                                             <Image
                 height={500} // Desired size with correct aspect ratio
                 width={500}
-                 z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
+                 z-0="true" role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="/medee1.jpg" alt="games" />
                                            
                 <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">

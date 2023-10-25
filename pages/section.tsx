@@ -26,12 +26,12 @@ const Section = () => {
           
           <div className="news-section__news-cards md:flex md:flex-1 md:grid-cols-1 w-full gap-6  px-6 ">
             
-          <div z-0 className="news-section__news-card">
-            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
-                                            <img z-0 role="img" aria-label="gaming" className="w-full transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none " src="medee1.jpg" alt="games" />
+          <div z-0="true" className="news-section__news-card">
+            <div z-0="true" role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                            <img z-0="true" role="img" aria-label="gaming" className="w-full transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none " src="medee1.jpg" alt="games" />
                                             <div className="py-2 px-4 w-full flex justify-between bg-teal-700 news-section__news-card-text">
-                                                <p z-0 className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
-                                                <p z-0 className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
+                                                <p z-0="true" className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
+                                                <p z-0="true" className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
                                             </div>
                 <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
@@ -51,12 +51,12 @@ const Section = () => {
               </div>
                                         </div>
                                         </div>
-                                        <div z-0 className="news-section__news-card">
-            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
-                                            <img z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="medee1.jpg" alt="games" />
+                                        <div z-0="true" className="news-section__news-card">
+            <div z-0="true" role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                            <img z-0="true" role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="medee1.jpg" alt="games" />
                                             <div className="py-2 px-4 w-full flex justify-between bg-teal-700 news-section__news-card-text">
-                                                <p z-0 className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
-                                                <p z-0 className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
+                                                <p z-0="true" className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
+                                                <p z-0="true" className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
                                             </div>
                 <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
@@ -78,12 +78,12 @@ const Section = () => {
                                         </div>
 
 
-            <div z-0 className="news-section__news-card">
-            <div z-0 role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
-                                            <img z-0 role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="medee1.jpg" alt="games" />
+            <div z-0="true" className="news-section__news-card">
+            <div z-0="true" role="img" className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden">
+                                            <img z-0="true" role="img" aria-label="gaming" className="transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none w-full" src="medee1.jpg" alt="games" />
                                             <div className="py-2 px-4 w-full flex justify-between bg-teal-700 news-section__news-card-text">
-                                                <p z-0 className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
-                                                <p z-0 className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
+                                                <p z-0="true" className="focus:outline-none  text-sm text-white font-semibold tracking-wide">Bruce Wayne</p>
+                                                <p z-0="true" className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
                                             </div>
                 <div className="news-section__news-card-text">
                 <div className="news-section__featured-card-title">
