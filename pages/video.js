@@ -1,13 +1,31 @@
 import React from "react";
 
+import { useState } from "react";
 export default function video() {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  const handleVideoLoad = () => {
+    setVideoLoaded(true);
+  };
+
   return (
-    <video className="w-full " autoPlay loop muted>
-      <source
-        // src="https://tecdn.b-cdn.net/img/video/Lines.mp4"
-        src="/banner.mp4"
-        type="video/mp4"
-      />
-    </video>
+    <div>
+      {videoLoaded ? null : <img src="/about-hero.jpg" alt="Loading" />}
+
+      <video
+        autoPlay
+        muted
+        loop
+        onCanPlayThrough={handleVideoLoad}
+        style={{ display: videoLoaded ? "block" : "none" }}
+      >
+        <source src="banner.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
   );
 }
+
+// autoPlay;
+// loop;
+// muted;

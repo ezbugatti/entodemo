@@ -69,7 +69,7 @@ const Nav = () => {
     <li className="">
       <Link
         className="bg-gray-50 hover:bg-gray-200 py-2 px-4 block whitespace-no-wrap"
-        href="/emtonogtohooromj"
+        href="/tender"
       >
        Эмнэлгийн тоног төхөөрөмж
       </Link>
