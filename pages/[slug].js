@@ -1,8 +1,6 @@
 import React from "react";
 import Layout from "./layout";
 
-import React from "react";
-
 export default function slug() {
   return <div>hello</div>;
 }
