@@ -1,6 +1,14 @@
 // import Link from "next/link";
 // import moment from "moment";
 // import { urlFor } from "../api/getAllPost";
+
+
+import React from "react";
+
+export default function Posts() {
+  return <div>hello</div>;
+}
+
 // export default function Posts({ posts }: any) {
 //   moment.locale("mn");
 //   return (

@@ -1,5 +1,11 @@
-// import React from "react";
-// import Layout from "./layout";
+import React from "react";
+import Layout from "./layout";
+
+import React from "react";
+
+export default function slug() {
+  return <div>hello</div>;
+}
 
 // import Link from "next/link";
 // import { getAllPosts, slugByQuery } from "./api/getAllPost";
@@ -21,6 +27,7 @@
 //   return (
 //     <>
 //       <Layout>
+//         <div>Hello</div>
 //         <div className="container w-full md:max-w-3xl mx-auto pt-20">
 //           <div className="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
 //             <div className="font-sans">
@@ -115,7 +122,7 @@
 //             )}
 //             <div className="flex-1 px-2">
 //               <p className="text-base font-bold  md:text-xl leading-none mb-2">
-//                 {/* {post.author.name} */}
+//                 {post.author.name}
 //               </p>
 //               <p className="text-gray-600 text-xs md:text-base">
 //                 {/* {post.author.bio} */}

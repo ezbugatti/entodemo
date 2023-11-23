@@ -5,6 +5,12 @@
 // import Layout from './layout'
 // import { getAllPosts } from './api/getAllPost'
 
+import React from "react";
+
+export default function news() {
+  return <div>hello</div>;
+}
+
 
 // export default function news({ data }: { data: SanityDocument[] })  {
 
