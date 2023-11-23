@@ -9,34 +9,37 @@ export default function section({ post }) {
         role="img"
         className="news-section__news-card-imageWrapper focus:outline-none cursor-pointer relative overflow-hidden"
       >
-        <img
-          z-0="true"
-          role="img"
-          aria-label="gaming"
-          className="w-full transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none "
-          src={urlFor(post.image).height(400).url()}
-          alt="games"
-        />
+        {/* {post.image && (
+          <img
+            z-0="true"
+            role="img"
+            aria-label="gaming"
+            className="w-full transition-all object-cover  transform ease-in-out hover:scale-105 duration-700 focus:outline-none "
+            src={urlFor(post.image).height(400).url()}
+            alt="games"
+          />
+        )} */}
+
         <div className="py-2 px-4 w-full flex justify-between bg-teal-700 news-section__news-card-text">
           <div
             z-0="true"
             className="focus:outline-none  text-sm text-white font-semibold tracking-wide"
           >
-            {post.author.name}
+            {/* {post.author.name} */}
           </div>
 
           <div
             z-0="true"
             className="focus:outline-none text-sm text-white font-semibold tracking-wide"
           >
-            {moment(post.publishedAt).subtract(10, "days").calendar()}
+            {/* {moment(post.publishedAt).subtract(10, "days").calendar()} */}
           </div>
         </div>
         <div className="news-section__news-card-text">
           <div className="news-section__featured-card-title">{post.title}</div>
-          <div className="news-section__news-card-title card-title">
+          {/* <div className="news-section__news-card-title card-title">
             {post.featuredText}
-          </div>
+          </div> */}
           <a href="#" className="readmore group">
             <span className="readmores">
               <svg

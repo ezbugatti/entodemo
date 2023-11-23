@@ -11,17 +11,25 @@ export const urlFor = (source) => {
 
 export const getAllPosts = async () => {
   const posts = await client.fetch(
-    groq`*[_type == "post"]{publishedAt, title, 'image': mainImage.asset->url, 'slug': slug.current,'author': author->{name, 'picture': image.asset->url}, featuredText, body, categories }`
+    groq`*[_type == "post"]{
+      ...,
+      title,
+      }`
   );
+
   // ()
   return posts; // Return only the array of posts
 };
 
 export const slugByQuery = async (slug) => {
   const post = await client.fetch(
-    groq`*[_type == "post" && slug.current == $slug]{publishedAt, title, 'image': mainImage.asset->url, 'slug': slug.current, 'author': author->{name, 'picture': image.asset->url}, featuredText, body[]{..., 'asset' : asset->}, categories }`,
+    groq`*[_type == "post" && slug.current == $slug]{
+      ...,
+      title, }`,
     { slug }
   );
 
   return post[0];
 };
+// publishedAt, title, 'image': mainImage.asset->url, 'slug': slug.current,'author': author->{name, 'picture': image.asset->url}, featuredText, body, categories
+// publishedAt, title, 'image': mainImage.asset->url, 'slug': slug.current, 'author': author->{name, 'picture': image.asset->url}, featuredText, body[]{..., 'asset' : asset->}, categories

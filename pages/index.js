@@ -10,6 +10,7 @@ import Stat from "./stat";
 import Zaxiral from "./zaxiral";
 import Partners from "./components/Partners";
 import { getAllPosts } from "./api/getAllPost";
+
 export default function Home({ posts }) {
   return (
     <>
